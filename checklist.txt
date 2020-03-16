@@ -1,0 +1,122 @@
+﻿Switches: Cisco 2960
+Router: Cisco 2911
+___________________________________________________________
+
+REDE 1- TI
+
+PC-01
+IP: 172.16.15.10
+Máscara: 255.255.255.0
+gateway: 172.16.15.1
+
+PC-02
+IP: 172.16.15.15
+Máscara: 255.255.255.0
+gateway: 172.16.15.1
+
+
+
+SWITCH 1
+
+1ºAlterar o nome do switch - SW-01
+2º Configurar o banner - ATENCAO! APENAS O DEPARTAMENTO DE TI DA EMPRESA SARTUNO LTDA. TEM A AUTORIZACAO PARA ACESSAR ESSE EQUIPAMENTO!
+3º Configurar senha da Enable - Sarturno*Enable
+4º Configurar senha na Console -Sarturno*Console
+5º colocar a rede em um domínio - sarturno.local
+6º Ativar o SSH / chave de 1024 bits
+7ºCria um usuário -    Username: sarturnoti    Password: batata*00   Privilégio: 15
+8º Configurar senha na VTY - Sarturno*VTY
+9º Configurar a linha de Console e ativar o login via usuário local
+10ºColocar descrição em todas as interfaces utilizadas na topologia
+11ºDesativar a opção de tradução de nome do IOS
+12ºConfigurar IP e máscara    172.16.15.254  255.255.255.0
+13º Encriptar todas as senhas
+14ºConfigurar o gateway padrão 172.16.15.1
+
+___________________________________________________________
+
+REDE 2 - RH
+
+PC-03
+IP: 192.168.0.10
+Máscara: 255.255.0.0
+gateway: 192.168.0.1
+
+PC-04
+IP: 192.168.0.15
+Máscara: 255.255.0.0
+gateway: 192.168.0.1
+
+SWITCH 2
+
+1ºAlterar o nome do switch - SW-02
+2º Configurar o banner - ATENCAO! APENAS O DEPARTAMENTO DE TI DA EMPRESA SARTUNO LTDA. TEM A AUTORIZACAO PARA ACESSAR ESSE EQUIPAMENTO!
+3º Configurar senha da Enable - Sarturno*Enable
+4º Configurar senha na Console -Sarturno*Console
+5º colocar a rede em um domínio - sarturno.local
+6º Ativar o SSH / chave de 1024 bits
+7ºCria um usuário -    Username: sarturnoti    Password: batata*00   Privilégio: 15
+8º Configurar senha na VTY - Sarturno*VTY
+9º Configurar a linha de Console e ativar o login via usuário local
+10ºColocar descrição em todas as interfaces utilizadas na topologia
+11ºDesativar a opção de tradução de nome do IOS
+12ºConfigurar IP e máscara    192.168.255.254  255.255.0.0
+13º Encriptar todas as senhas
+14ºConfigurar o gateway padrão 192.168.0.1
+
+
+___________________________________________________________
+
+REDE 3 - DIRETORIA
+
+PC-05
+IP: 172.16.10.10
+Máscara: 255.255.255.0
+gateway: 172.16.10.1
+
+PC-06
+IP: 172.16.10.15
+Máscara: 255.255.255.0
+gateway: 172.16.10.1
+
+
+SWITCH 3
+
+1ºAlterar o nome do switch - SW-03
+2º Configurar o banner - ATENCAO! APENAS O DEPARTAMENTO DE TI DA EMPRESA SARTUNO LTDA. TEM A AUTORIZACAO PARA ACESSAR ESSE EQUIPAMENTO!
+3º Configurar senha da Enable - Sarturno*Enable
+4º Configurar senha na Console -Sarturno*Console
+5º colocar a rede em um domínio - sarturno.local
+6º Ativar o SSH / chave de 1024 bits
+7ºCria um usuário -    Username: sarturnoti    Password: batata*00   Privilégio: 15
+8º Configurar senha na VTY - Sarturno*VTY
+9º Configurar a linha de Console e ativar o login via usuário local
+10ºColocar descrição em todas as interfaces utilizadas na topologia
+11ºDesativar a opção de tradução de nome do IOS
+12ºConfigurar IP e máscara    172.16.10.254  255.255.255.0
+13º Encriptar todas as senhas
+14ºConfigurar o gateway padrão 172.16.10.1
+
+
+___________________________________________________________
+
+ROUTER
+
+
+1ºAlterar o nome do switch - RT-01
+2º Configurar o banner - ATENCAO! APENAS O DEPARTAMENTO DE TI DA EMPRESA SARTUNO LTDA. TEM A AUTORIZACAO PARA ACESSAR ESSE EQUIPAMENTO!
+3º Configurar senha da Enable - Sarturno*Enable
+4º Configurar senha na Console -Sarturno*Console
+5º colocar a rede em um domínio - sarturno.local
+6º Ativar o SSH / chave de 1024 bits
+7ºCria um usuário -    Username: sarturnoti    Password: batata*00   Privilégio: 15
+8º Configurar senha na VTY - Sarturno*VTY
+9º Configurar a linha de Console e ativar o login via usuário local
+10ºColocar descrição em todas as interfaces utilizadas na topologia
+11ºDesativar a opção de tradução de nome do IOS
+12ºConfigurar IP e máscara nas interfaces
+REDE-01 172.16.15.1  255.255.255.0
+REDE-02 192.168.0.1  255.255.0.0
+REDE-03 172.16.10.1  255.255.255.0
+13º Encriptar todas as senhas
+
